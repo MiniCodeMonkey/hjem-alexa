@@ -6,19 +6,19 @@ use Alexa\Request\Request;
 
 use RuntimeException;
 
-class SpeakerPlayPlaylistIntent extends SpeakerIntent {
+class SpeakerPlayTrackIntent extends SpeakerIntent {
 
 	public function handle(Request $request) {
-		$playlistName = $request->slots['playlist'];
+		$query = $request->slots['query'];
 
 		try {
-			$playlistName = $this->play($playlistName);
+			$playResponse = $this->play($query);
 		} catch (RuntimeException $e) {
 			return $this->response->respond($e->getMessage());
 		}
 
 		return $this->response
-			->respond('Now playing ' . $playlistName);
+			->respond($playResponse);
 	}
 	
 }

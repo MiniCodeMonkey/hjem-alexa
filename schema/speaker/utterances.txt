@@ -1,18 +1,18 @@
-SpeakerPlayPlaylistIntent play {new age|playlist} playlist
-SpeakerPlayPlaylistIntent play {new age|playlist}
-SpeakerPlayPlaylistIntent I want to hear {new age|playlist}
-SpeakerPlayPlaylistIntent I want to listen to {new age|playlist}
-SpeakerPlayPlaylistIntent play me some {new age|playlist}
-SpeakerPlayPlaylistIntent play {harder better faster stronger|playlist} playlist
-SpeakerPlayPlaylistIntent play {harder better faster stronger|playlist}
-SpeakerPlayPlaylistIntent I want to hear {harder better faster stronger|playlist}
-SpeakerPlayPlaylistIntent I want to listen to {harder better faster stronger|playlist}
-SpeakerPlayPlaylistIntent play me some {harder better faster stronger|playlist}
-SpeakerPlayPlaylistIntent play {jet set groove|playlist} playlist
-SpeakerPlayPlaylistIntent play {jet set groove|playlist}
-SpeakerPlayPlaylistIntent I want to hear {jet set groove|playlist}
-SpeakerPlayPlaylistIntent I want to listen to {jet set groove|playlist}
-SpeakerPlayPlaylistIntent play me some {jet set groove|playlist}
+SpeakerPlayTrackIntent play {are you gonna be my soul girl|query} playlist
+SpeakerPlayTrackIntent play {are you gonna be my soul girl|query}
+SpeakerPlayTrackIntent I want to hear {are you gonna be my soul girl|query}
+SpeakerPlayTrackIntent I want to listen to {are you gonna be my soul girl|query}
+SpeakerPlayTrackIntent play me some {are you gonna be my soul girl|query}
+SpeakerPlayTrackIntent play {harder better faster stronger|query} playlist
+SpeakerPlayTrackIntent play {harder better faster stronger|query}
+SpeakerPlayTrackIntent I want to hear {harder better faster stronger|query}
+SpeakerPlayTrackIntent I want to listen to {harder better faster stronger|query}
+SpeakerPlayTrackIntent play me some {harder better faster stronger|query}
+SpeakerPlayTrackIntent play {maps|query} playlist
+SpeakerPlayTrackIntent play {maps|query}
+SpeakerPlayTrackIntent I want to hear {maps|query}
+SpeakerPlayTrackIntent I want to listen to {maps|query}
+SpeakerPlayTrackIntent play me some {maps|query}
 
 SpeakerStopIntent stop
 SpeakerStopIntent stop music

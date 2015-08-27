@@ -28,6 +28,7 @@ class HjemApiServiceProvider extends ServiceProvider
             $client = new Client([
                 'base_uri' => env('HJEM_API_BASE_URL') . '/v1/',
                 'timeout'  => 10.0,
+                'exceptions' => FALSE
             ]);
 
             return $client;

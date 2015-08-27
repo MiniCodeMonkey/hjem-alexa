@@ -9,10 +9,10 @@
       "slots": []
     },
     {
-      "intent": "SpeakerPlayPlaylistIntent",
+      "intent": "SpeakerPlayTrackIntent",
       "slots": [
         {
-          "name": "playlist",
+          "name": "query",
           "type": "LITERAL"
         }
       ]
