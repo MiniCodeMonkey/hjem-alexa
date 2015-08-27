@@ -1,0 +1,21 @@
+{
+  "intents": [
+    {
+      "intent": "SpeakerHelpIntent",
+      "slots": []
+    },
+    {
+      "intent": "SpeakerStopIntent",
+      "slots": []
+    },
+    {
+      "intent": "SpeakerPlayPlaylistIntent",
+      "slots": [
+        {
+          "name": "playlist",
+          "type": "LITERAL"
+        }
+      ]
+    }
+  ]
+}

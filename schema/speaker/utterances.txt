@@ -1,0 +1,38 @@
+SpeakerPlayPlaylistIntent play {new age|playlist} playlist
+SpeakerPlayPlaylistIntent play {new age|playlist}
+SpeakerPlayPlaylistIntent I want to hear {new age|playlist}
+SpeakerPlayPlaylistIntent I want to listen to {new age|playlist}
+SpeakerPlayPlaylistIntent play me some {new age|playlist}
+SpeakerPlayPlaylistIntent play {harder better faster stronger|playlist} playlist
+SpeakerPlayPlaylistIntent play {harder better faster stronger|playlist}
+SpeakerPlayPlaylistIntent I want to hear {harder better faster stronger|playlist}
+SpeakerPlayPlaylistIntent I want to listen to {harder better faster stronger|playlist}
+SpeakerPlayPlaylistIntent play me some {harder better faster stronger|playlist}
+SpeakerPlayPlaylistIntent play {jet set groove|playlist} playlist
+SpeakerPlayPlaylistIntent play {jet set groove|playlist}
+SpeakerPlayPlaylistIntent I want to hear {jet set groove|playlist}
+SpeakerPlayPlaylistIntent I want to listen to {jet set groove|playlist}
+SpeakerPlayPlaylistIntent play me some {jet set groove|playlist}
+
+SpeakerStopIntent stop
+SpeakerStopIntent stop music
+SpeakerStopIntent shut up
+SpeakerStopIntent kill the music
+SpeakerStopIntent stop it
+
+SpeakerHelpIntent help
+SpeakerHelpIntent help me
+SpeakerHelpIntent what can I ask you
+SpeakerHelpIntent get help
+SpeakerHelpIntent to help
+SpeakerHelpIntent to help me
+SpeakerHelpIntent what commands can I ask
+SpeakerHelpIntent what commands can I say
+SpeakerHelpIntent what can I do
+SpeakerHelpIntent what can I use this for
+SpeakerHelpIntent what questions can I ask
+SpeakerHelpIntent what can you do
+SpeakerHelpIntent what do you do
+SpeakerHelpIntent how do I use you
+SpeakerHelpIntent how can I use you
+SpeakerHelpIntent what can you tell me
