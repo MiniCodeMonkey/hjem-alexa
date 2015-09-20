@@ -27,7 +27,7 @@ class AlexaRequestController extends Controller
         	$alexaResponse = $intent->handle($alexaRequest);
         } elseif ($alexaRequest instanceof LaunchRequest) {
             try {
-                $appName = $this->getAppNameFromId($alexaRequest->application->applicationId);
+                $appName = $this->getAppNameFromId($alexaRequest->applicationId);
                 $intent = $this->getIntent($appName . 'HelpIntent');
             } catch (RuntimeException $e) {
                 $alexaResponse = new AlexaResponse;

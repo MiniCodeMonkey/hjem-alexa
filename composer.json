@@ -7,7 +7,7 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
-        "minicodemonkey/amazon-alexa-php": "0.*",
+        "minicodemonkey/amazon-alexa-php": "0.1.*",
         "guzzlehttp/guzzle": "^6.0"
     },
     "require-dev": {
