@@ -4,10 +4,10 @@ namespace App\Intents;
 
 use Alexa\Request\Request;
 
-class NestWarmUpIntent extends NestIntent {
+class ThermostatCoolDownIntent extends ThermostatIntent {
 
 	public function handle(Request $request) {
-		$targetTemperature = $this->getTemperature(true) + 2;
+		$targetTemperature = $this->getTemperature(true) - 2;
 
 		try {
 			$this->setTemperature($targetTemperature);
@@ -16,6 +16,7 @@ class NestWarmUpIntent extends NestIntent {
 		}
 
 		return $this->response
-			->respond('Ice ice baby to cold, to cold. I\'m increasing the target temperature to ' . $targetTemperature . ' degrees');
+			->respond('Cool! I decreased the target temperature to ' . $targetTemperature . ' degrees');
 	}
+
 }

@@ -4,7 +4,7 @@ namespace App\Intents;
 
 use Alexa\Request\Request;
 
-class NestHelpIntent extends HelpIntent {
+class ThermostatHelpIntent extends HelpIntent {
 
 	protected $examples = [
 		'Alexa, tell {invocation} set temperature to seventy degrees',

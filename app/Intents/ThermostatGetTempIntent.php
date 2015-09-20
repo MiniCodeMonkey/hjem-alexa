@@ -4,7 +4,7 @@ namespace App\Intents;
 
 use Alexa\Request\Request;
 
-class NestGetTempIntent extends NestIntent {
+class ThermostatGetTempIntent extends ThermostatIntent {
 
 	public function handle(Request $request) {
 		return $this->response

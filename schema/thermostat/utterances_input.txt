@@ -1,75 +1,75 @@
-NestGetTempIntent what's the temperature
-NestGetTempIntent what is the temperature
-NestGetTempIntent how warm is it
-NestGetTempIntent how cool is it
-NestGetTempIntent temperature
+ThermostatGetTempIntent what's the temperature
+ThermostatGetTempIntent what is the temperature
+ThermostatGetTempIntent how warm is it
+ThermostatGetTempIntent how cool is it
+ThermostatGetTempIntent temperature
 
-NestSetTempIntent set nest to {[number:60-80]|temp} [optional:degrees]
-NestSetTempIntent have nest cool to {[number:60-80]|temp} [optional:degrees]
-NestSetTempIntent set temperature to {[number:60-80]|temp} [optional:degrees]
-NestSetTempIntent set cool to {[number:60-80]|temp} [optional:degrees]
-NestSetTempIntent set to {[number:60-80]|temp}  [optional:degrees]
-NestSetTempIntent set {[number:60-80]|temp}  [optional:degrees]
-NestSetTempIntent set thermostat to {[number:60-80]|temp} [optional:degrees]
-NestSetTempIntent nest to {[number:60-80]|temp} [optional:degrees]
-NestSetTempIntent nest cool to {[number:60-80]|temp} [optional:degrees]
-NestSetTempIntent temperature to {[number:60-80]|temp} [optional:degrees]
+ThermostatSetTempIntent set [multiple:nest|thermostat] to {[number:60-80]|temp} [optional:degrees]
+ThermostatSetTempIntent have [multiple:nest|thermostat] cool to {[number:60-80]|temp} [optional:degrees]
+ThermostatSetTempIntent set temperature to {[number:60-80]|temp} [optional:degrees]
+ThermostatSetTempIntent set cool to {[number:60-80]|temp} [optional:degrees]
+ThermostatSetTempIntent set to {[number:60-80]|temp}  [optional:degrees]
+ThermostatSetTempIntent set {[number:60-80]|temp}  [optional:degrees]
+ThermostatSetTempIntent set thermostat to {[number:60-80]|temp} [optional:degrees]
+ThermostatSetTempIntent [multiple:nest|thermostat] to {[number:60-80]|temp} [optional:degrees]
+ThermostatSetTempIntent [multiple:nest|thermostat] cool to {[number:60-80]|temp} [optional:degrees]
+ThermostatSetTempIntent temperature to {[number:60-80]|temp} [optional:degrees]
 
-NestCoolDownIntent turn the temperature down
-NestCoolDownIntent temperature down
-NestCoolDownIntent I'm too warm
-NestCoolDownIntent too warm
-NestCoolDownIntent react to burn 
-NestCoolDownIntent I'm burning up
-NestCoolDownIntent burning up
-NestCoolDownIntent i'm too hot
-NestCoolDownIntent too hot
-NestCoolDownIntent cool down
-NestCoolDownIntent cool the house down
-NestCoolDownIntent turn the thermostat down
-NestCoolDownIntent thermostat down
-NestCoolDownIntent the house is on fire
-NestCoolDownIntent hot as hell
-NestCoolDownIntent hot as hell's fiery pits 
-NestCoolDownIntent hot as the fiery pits of hell  
-NestCoolDownIntent its hot as the fiery pits of hell  
-NestCoolDownIntent its hot as hell
-NestCoolDownIntent its hot as hell's fiery pits 
-NestCoolDownIntent it is as hot as the fiery pits of hell  
-NestCoolDownIntent it is hot as hell
-NestCoolDownIntent burned
+ThermostatCoolDownIntent turn the temperature down
+ThermostatCoolDownIntent temperature down
+ThermostatCoolDownIntent I'm too warm
+ThermostatCoolDownIntent too warm
+ThermostatCoolDownIntent react to burn 
+ThermostatCoolDownIntent I'm burning up
+ThermostatCoolDownIntent burning up
+ThermostatCoolDownIntent i'm too hot
+ThermostatCoolDownIntent too hot
+ThermostatCoolDownIntent cool down
+ThermostatCoolDownIntent cool the house down
+ThermostatCoolDownIntent turn the thermostat down
+ThermostatCoolDownIntent thermostat down
+ThermostatCoolDownIntent the house is on fire
+ThermostatCoolDownIntent hot as hell
+ThermostatCoolDownIntent hot as hell's fiery pits 
+ThermostatCoolDownIntent hot as the fiery pits of hell  
+ThermostatCoolDownIntent its hot as the fiery pits of hell  
+ThermostatCoolDownIntent its hot as hell
+ThermostatCoolDownIntent its hot as hell's fiery pits 
+ThermostatCoolDownIntent it is as hot as the fiery pits of hell  
+ThermostatCoolDownIntent it is hot as hell
+ThermostatCoolDownIntent burned
 
-NestWarmUpIntent turn the temperature up
-NestWarmUpIntent temperature up
-NestWarmUpIntent I am too cold
-NestWarmUpIntent I'm too cold
-NestWarmUpIntent it is too cool
-NestWarmUpIntent it is too cold
-NestWarmUpIntent it is freezing
-NestWarmUpIntent it's freezing
-NestWarmUpIntent it is chilly
-NestWarmUpIntent its chilly
-NestWarmUpIntent it is like ice
-NestWarmUpIntent its like ice
-NestWarmUpIntent warm up the house
-NestWarmUpIntent it is nippy
-NestWarmUpIntent it's nippy
-NestWarmUpIntent my nipples are like diamonds 
-NestWarmUpIntent my nipples are as hard as diamonds
+ThermostatWarmUpIntent turn the temperature up
+ThermostatWarmUpIntent temperature up
+ThermostatWarmUpIntent I am too cold
+ThermostatWarmUpIntent I'm too cold
+ThermostatWarmUpIntent it is too cool
+ThermostatWarmUpIntent it is too cold
+ThermostatWarmUpIntent it is freezing
+ThermostatWarmUpIntent it's freezing
+ThermostatWarmUpIntent it is chilly
+ThermostatWarmUpIntent its chilly
+ThermostatWarmUpIntent it is like ice
+ThermostatWarmUpIntent its like ice
+ThermostatWarmUpIntent warm up the house
+ThermostatWarmUpIntent it is nippy
+ThermostatWarmUpIntent it's nippy
+ThermostatWarmUpIntent my nipples are like diamonds 
+ThermostatWarmUpIntent my nipples are as hard as diamonds
 
-NestHelpIntent help
-NestHelpIntent help me
-NestHelpIntent what can I ask you
-NestHelpIntent get help
-NestHelpIntent to help
-NestHelpIntent to help me
-NestHelpIntent what commands can I ask
-NestHelpIntent what commands can I say
-NestHelpIntent what can I do
-NestHelpIntent what can I use this for
-NestHelpIntent what questions can I ask
-NestHelpIntent what can you do
-NestHelpIntent what do you do
-NestHelpIntent how do I use you
-NestHelpIntent how can I use you
-NestHelpIntent what can you tell me
+ThermostatHelpIntent help
+ThermostatHelpIntent help me
+ThermostatHelpIntent what can I ask you
+ThermostatHelpIntent get help
+ThermostatHelpIntent to help
+ThermostatHelpIntent to help me
+ThermostatHelpIntent what commands can I ask
+ThermostatHelpIntent what commands can I say
+ThermostatHelpIntent what can I do
+ThermostatHelpIntent what can I use this for
+ThermostatHelpIntent what questions can I ask
+ThermostatHelpIntent what can you do
+ThermostatHelpIntent what do you do
+ThermostatHelpIntent how do I use you
+ThermostatHelpIntent how can I use you
+ThermostatHelpIntent what can you tell me

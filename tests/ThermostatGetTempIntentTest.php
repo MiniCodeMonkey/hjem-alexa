@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 use Alexa\Request\Request;
 
-class NestGetTempIntentTest extends TestCase
+class ThermostatGetTempIntentTest extends TestCase
 {
     public function testSimpleRequest()
     {
@@ -16,7 +16,7 @@ class NestGetTempIntentTest extends TestCase
                 'timestamp' => (new DateTime())->format(DateTime::ISO8601),
                 'type' => 'IntentRequest',
                 'intent' => [
-                    'name' => 'NestGetTempIntent'
+                    'name' => 'ThermostatGetTempIntent'
                 ]
             ]
         ];

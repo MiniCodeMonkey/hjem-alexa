@@ -1,19 +1,19 @@
 {
   "intents": [
     {
-      "intent": "NestHelpIntent",
+      "intent": "ThermostatHelpIntent",
       "slots": []
     },
     {
-      "intent": "NestCoolDownIntent",
+      "intent": "ThermostatCoolDownIntent",
       "slots": []
     },
     {
-      "intent": "NestWarmUpIntent",
+      "intent": "ThermostatWarmUpIntent",
       "slots": []
     },
     {
-      "intent": "NestSetTempIntent",
+      "intent": "ThermostatSetTempIntent",
       "slots": [
         {
           "name": "temp",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "intent": "NestGetTempIntent",
+      "intent": "ThermostatGetTempIntent",
       "slots": []
     }
   ]

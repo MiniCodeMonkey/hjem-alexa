@@ -1,485 +1,653 @@
-NestGetTempIntent what's the temperature
-NestGetTempIntent what is the temperature
-NestGetTempIntent how warm is it
-NestGetTempIntent how cool is it
-NestGetTempIntent temperature
+ThermostatGetTempIntent what's the temperature
+ThermostatGetTempIntent what is the temperature
+ThermostatGetTempIntent how warm is it
+ThermostatGetTempIntent how cool is it
+ThermostatGetTempIntent temperature
 
-NestSetTempIntent set nest to {Sixty|temp}
-NestSetTempIntent set nest to {Sixty One|temp}
-NestSetTempIntent set nest to {Sixty Two|temp}
-NestSetTempIntent set nest to {Sixty Three|temp}
-NestSetTempIntent set nest to {Sixty Four|temp}
-NestSetTempIntent set nest to {Sixty Five|temp}
-NestSetTempIntent set nest to {Sixty Six|temp}
-NestSetTempIntent set nest to {Sixty Seven|temp}
-NestSetTempIntent set nest to {Sixty Eight|temp}
-NestSetTempIntent set nest to {Sixty Nine|temp}
-NestSetTempIntent set nest to {Seventy|temp}
-NestSetTempIntent set nest to {Seventy One|temp}
-NestSetTempIntent set nest to {Seventy Two|temp}
-NestSetTempIntent set nest to {Seventy Three|temp}
-NestSetTempIntent set nest to {Seventy Four|temp}
-NestSetTempIntent set nest to {Seventy Five|temp}
-NestSetTempIntent set nest to {Seventy Six|temp}
-NestSetTempIntent set nest to {Seventy Seven|temp}
-NestSetTempIntent set nest to {Seventy Eight|temp}
-NestSetTempIntent set nest to {Seventy Nine|temp}
-NestSetTempIntent set nest to {Eigthy|temp}
-NestSetTempIntent set nest to {Sixty|temp} degrees
-NestSetTempIntent set nest to {Sixty One|temp} degrees
-NestSetTempIntent set nest to {Sixty Two|temp} degrees
-NestSetTempIntent set nest to {Sixty Three|temp} degrees
-NestSetTempIntent set nest to {Sixty Four|temp} degrees
-NestSetTempIntent set nest to {Sixty Five|temp} degrees
-NestSetTempIntent set nest to {Sixty Six|temp} degrees
-NestSetTempIntent set nest to {Sixty Seven|temp} degrees
-NestSetTempIntent set nest to {Sixty Eight|temp} degrees
-NestSetTempIntent set nest to {Sixty Nine|temp} degrees
-NestSetTempIntent set nest to {Seventy|temp} degrees
-NestSetTempIntent set nest to {Seventy One|temp} degrees
-NestSetTempIntent set nest to {Seventy Two|temp} degrees
-NestSetTempIntent set nest to {Seventy Three|temp} degrees
-NestSetTempIntent set nest to {Seventy Four|temp} degrees
-NestSetTempIntent set nest to {Seventy Five|temp} degrees
-NestSetTempIntent set nest to {Seventy Six|temp} degrees
-NestSetTempIntent set nest to {Seventy Seven|temp} degrees
-NestSetTempIntent set nest to {Seventy Eight|temp} degrees
-NestSetTempIntent set nest to {Seventy Nine|temp} degrees
-NestSetTempIntent set nest to {Eigthy|temp} degrees
-NestSetTempIntent have nest cool to {Sixty|temp}
-NestSetTempIntent have nest cool to {Sixty One|temp}
-NestSetTempIntent have nest cool to {Sixty Two|temp}
-NestSetTempIntent have nest cool to {Sixty Three|temp}
-NestSetTempIntent have nest cool to {Sixty Four|temp}
-NestSetTempIntent have nest cool to {Sixty Five|temp}
-NestSetTempIntent have nest cool to {Sixty Six|temp}
-NestSetTempIntent have nest cool to {Sixty Seven|temp}
-NestSetTempIntent have nest cool to {Sixty Eight|temp}
-NestSetTempIntent have nest cool to {Sixty Nine|temp}
-NestSetTempIntent have nest cool to {Seventy|temp}
-NestSetTempIntent have nest cool to {Seventy One|temp}
-NestSetTempIntent have nest cool to {Seventy Two|temp}
-NestSetTempIntent have nest cool to {Seventy Three|temp}
-NestSetTempIntent have nest cool to {Seventy Four|temp}
-NestSetTempIntent have nest cool to {Seventy Five|temp}
-NestSetTempIntent have nest cool to {Seventy Six|temp}
-NestSetTempIntent have nest cool to {Seventy Seven|temp}
-NestSetTempIntent have nest cool to {Seventy Eight|temp}
-NestSetTempIntent have nest cool to {Seventy Nine|temp}
-NestSetTempIntent have nest cool to {Eigthy|temp}
-NestSetTempIntent have nest cool to {Sixty|temp} degrees
-NestSetTempIntent have nest cool to {Sixty One|temp} degrees
-NestSetTempIntent have nest cool to {Sixty Two|temp} degrees
-NestSetTempIntent have nest cool to {Sixty Three|temp} degrees
-NestSetTempIntent have nest cool to {Sixty Four|temp} degrees
-NestSetTempIntent have nest cool to {Sixty Five|temp} degrees
-NestSetTempIntent have nest cool to {Sixty Six|temp} degrees
-NestSetTempIntent have nest cool to {Sixty Seven|temp} degrees
-NestSetTempIntent have nest cool to {Sixty Eight|temp} degrees
-NestSetTempIntent have nest cool to {Sixty Nine|temp} degrees
-NestSetTempIntent have nest cool to {Seventy|temp} degrees
-NestSetTempIntent have nest cool to {Seventy One|temp} degrees
-NestSetTempIntent have nest cool to {Seventy Two|temp} degrees
-NestSetTempIntent have nest cool to {Seventy Three|temp} degrees
-NestSetTempIntent have nest cool to {Seventy Four|temp} degrees
-NestSetTempIntent have nest cool to {Seventy Five|temp} degrees
-NestSetTempIntent have nest cool to {Seventy Six|temp} degrees
-NestSetTempIntent have nest cool to {Seventy Seven|temp} degrees
-NestSetTempIntent have nest cool to {Seventy Eight|temp} degrees
-NestSetTempIntent have nest cool to {Seventy Nine|temp} degrees
-NestSetTempIntent have nest cool to {Eigthy|temp} degrees
-NestSetTempIntent set temperature to {Sixty|temp}
-NestSetTempIntent set temperature to {Sixty One|temp}
-NestSetTempIntent set temperature to {Sixty Two|temp}
-NestSetTempIntent set temperature to {Sixty Three|temp}
-NestSetTempIntent set temperature to {Sixty Four|temp}
-NestSetTempIntent set temperature to {Sixty Five|temp}
-NestSetTempIntent set temperature to {Sixty Six|temp}
-NestSetTempIntent set temperature to {Sixty Seven|temp}
-NestSetTempIntent set temperature to {Sixty Eight|temp}
-NestSetTempIntent set temperature to {Sixty Nine|temp}
-NestSetTempIntent set temperature to {Seventy|temp}
-NestSetTempIntent set temperature to {Seventy One|temp}
-NestSetTempIntent set temperature to {Seventy Two|temp}
-NestSetTempIntent set temperature to {Seventy Three|temp}
-NestSetTempIntent set temperature to {Seventy Four|temp}
-NestSetTempIntent set temperature to {Seventy Five|temp}
-NestSetTempIntent set temperature to {Seventy Six|temp}
-NestSetTempIntent set temperature to {Seventy Seven|temp}
-NestSetTempIntent set temperature to {Seventy Eight|temp}
-NestSetTempIntent set temperature to {Seventy Nine|temp}
-NestSetTempIntent set temperature to {Eigthy|temp}
-NestSetTempIntent set temperature to {Sixty|temp} degrees
-NestSetTempIntent set temperature to {Sixty One|temp} degrees
-NestSetTempIntent set temperature to {Sixty Two|temp} degrees
-NestSetTempIntent set temperature to {Sixty Three|temp} degrees
-NestSetTempIntent set temperature to {Sixty Four|temp} degrees
-NestSetTempIntent set temperature to {Sixty Five|temp} degrees
-NestSetTempIntent set temperature to {Sixty Six|temp} degrees
-NestSetTempIntent set temperature to {Sixty Seven|temp} degrees
-NestSetTempIntent set temperature to {Sixty Eight|temp} degrees
-NestSetTempIntent set temperature to {Sixty Nine|temp} degrees
-NestSetTempIntent set temperature to {Seventy|temp} degrees
-NestSetTempIntent set temperature to {Seventy One|temp} degrees
-NestSetTempIntent set temperature to {Seventy Two|temp} degrees
-NestSetTempIntent set temperature to {Seventy Three|temp} degrees
-NestSetTempIntent set temperature to {Seventy Four|temp} degrees
-NestSetTempIntent set temperature to {Seventy Five|temp} degrees
-NestSetTempIntent set temperature to {Seventy Six|temp} degrees
-NestSetTempIntent set temperature to {Seventy Seven|temp} degrees
-NestSetTempIntent set temperature to {Seventy Eight|temp} degrees
-NestSetTempIntent set temperature to {Seventy Nine|temp} degrees
-NestSetTempIntent set temperature to {Eigthy|temp} degrees
-NestSetTempIntent set cool to {Sixty|temp}
-NestSetTempIntent set cool to {Sixty One|temp}
-NestSetTempIntent set cool to {Sixty Two|temp}
-NestSetTempIntent set cool to {Sixty Three|temp}
-NestSetTempIntent set cool to {Sixty Four|temp}
-NestSetTempIntent set cool to {Sixty Five|temp}
-NestSetTempIntent set cool to {Sixty Six|temp}
-NestSetTempIntent set cool to {Sixty Seven|temp}
-NestSetTempIntent set cool to {Sixty Eight|temp}
-NestSetTempIntent set cool to {Sixty Nine|temp}
-NestSetTempIntent set cool to {Seventy|temp}
-NestSetTempIntent set cool to {Seventy One|temp}
-NestSetTempIntent set cool to {Seventy Two|temp}
-NestSetTempIntent set cool to {Seventy Three|temp}
-NestSetTempIntent set cool to {Seventy Four|temp}
-NestSetTempIntent set cool to {Seventy Five|temp}
-NestSetTempIntent set cool to {Seventy Six|temp}
-NestSetTempIntent set cool to {Seventy Seven|temp}
-NestSetTempIntent set cool to {Seventy Eight|temp}
-NestSetTempIntent set cool to {Seventy Nine|temp}
-NestSetTempIntent set cool to {Eigthy|temp}
-NestSetTempIntent set cool to {Sixty|temp} degrees
-NestSetTempIntent set cool to {Sixty One|temp} degrees
-NestSetTempIntent set cool to {Sixty Two|temp} degrees
-NestSetTempIntent set cool to {Sixty Three|temp} degrees
-NestSetTempIntent set cool to {Sixty Four|temp} degrees
-NestSetTempIntent set cool to {Sixty Five|temp} degrees
-NestSetTempIntent set cool to {Sixty Six|temp} degrees
-NestSetTempIntent set cool to {Sixty Seven|temp} degrees
-NestSetTempIntent set cool to {Sixty Eight|temp} degrees
-NestSetTempIntent set cool to {Sixty Nine|temp} degrees
-NestSetTempIntent set cool to {Seventy|temp} degrees
-NestSetTempIntent set cool to {Seventy One|temp} degrees
-NestSetTempIntent set cool to {Seventy Two|temp} degrees
-NestSetTempIntent set cool to {Seventy Three|temp} degrees
-NestSetTempIntent set cool to {Seventy Four|temp} degrees
-NestSetTempIntent set cool to {Seventy Five|temp} degrees
-NestSetTempIntent set cool to {Seventy Six|temp} degrees
-NestSetTempIntent set cool to {Seventy Seven|temp} degrees
-NestSetTempIntent set cool to {Seventy Eight|temp} degrees
-NestSetTempIntent set cool to {Seventy Nine|temp} degrees
-NestSetTempIntent set cool to {Eigthy|temp} degrees
-NestSetTempIntent set to {Sixty|temp}
-NestSetTempIntent set to {Sixty One|temp}
-NestSetTempIntent set to {Sixty Two|temp}
-NestSetTempIntent set to {Sixty Three|temp}
-NestSetTempIntent set to {Sixty Four|temp}
-NestSetTempIntent set to {Sixty Five|temp}
-NestSetTempIntent set to {Sixty Six|temp}
-NestSetTempIntent set to {Sixty Seven|temp}
-NestSetTempIntent set to {Sixty Eight|temp}
-NestSetTempIntent set to {Sixty Nine|temp}
-NestSetTempIntent set to {Seventy|temp}
-NestSetTempIntent set to {Seventy One|temp}
-NestSetTempIntent set to {Seventy Two|temp}
-NestSetTempIntent set to {Seventy Three|temp}
-NestSetTempIntent set to {Seventy Four|temp}
-NestSetTempIntent set to {Seventy Five|temp}
-NestSetTempIntent set to {Seventy Six|temp}
-NestSetTempIntent set to {Seventy Seven|temp}
-NestSetTempIntent set to {Seventy Eight|temp}
-NestSetTempIntent set to {Seventy Nine|temp}
-NestSetTempIntent set to {Eigthy|temp}
-NestSetTempIntent set to {Sixty|temp}  degrees
-NestSetTempIntent set to {Sixty One|temp}  degrees
-NestSetTempIntent set to {Sixty Two|temp}  degrees
-NestSetTempIntent set to {Sixty Three|temp}  degrees
-NestSetTempIntent set to {Sixty Four|temp}  degrees
-NestSetTempIntent set to {Sixty Five|temp}  degrees
-NestSetTempIntent set to {Sixty Six|temp}  degrees
-NestSetTempIntent set to {Sixty Seven|temp}  degrees
-NestSetTempIntent set to {Sixty Eight|temp}  degrees
-NestSetTempIntent set to {Sixty Nine|temp}  degrees
-NestSetTempIntent set to {Seventy|temp}  degrees
-NestSetTempIntent set to {Seventy One|temp}  degrees
-NestSetTempIntent set to {Seventy Two|temp}  degrees
-NestSetTempIntent set to {Seventy Three|temp}  degrees
-NestSetTempIntent set to {Seventy Four|temp}  degrees
-NestSetTempIntent set to {Seventy Five|temp}  degrees
-NestSetTempIntent set to {Seventy Six|temp}  degrees
-NestSetTempIntent set to {Seventy Seven|temp}  degrees
-NestSetTempIntent set to {Seventy Eight|temp}  degrees
-NestSetTempIntent set to {Seventy Nine|temp}  degrees
-NestSetTempIntent set to {Eigthy|temp}  degrees
-NestSetTempIntent set {Sixty|temp}
-NestSetTempIntent set {Sixty One|temp}
-NestSetTempIntent set {Sixty Two|temp}
-NestSetTempIntent set {Sixty Three|temp}
-NestSetTempIntent set {Sixty Four|temp}
-NestSetTempIntent set {Sixty Five|temp}
-NestSetTempIntent set {Sixty Six|temp}
-NestSetTempIntent set {Sixty Seven|temp}
-NestSetTempIntent set {Sixty Eight|temp}
-NestSetTempIntent set {Sixty Nine|temp}
-NestSetTempIntent set {Seventy|temp}
-NestSetTempIntent set {Seventy One|temp}
-NestSetTempIntent set {Seventy Two|temp}
-NestSetTempIntent set {Seventy Three|temp}
-NestSetTempIntent set {Seventy Four|temp}
-NestSetTempIntent set {Seventy Five|temp}
-NestSetTempIntent set {Seventy Six|temp}
-NestSetTempIntent set {Seventy Seven|temp}
-NestSetTempIntent set {Seventy Eight|temp}
-NestSetTempIntent set {Seventy Nine|temp}
-NestSetTempIntent set {Eigthy|temp}
-NestSetTempIntent set {Sixty|temp}  degrees
-NestSetTempIntent set {Sixty One|temp}  degrees
-NestSetTempIntent set {Sixty Two|temp}  degrees
-NestSetTempIntent set {Sixty Three|temp}  degrees
-NestSetTempIntent set {Sixty Four|temp}  degrees
-NestSetTempIntent set {Sixty Five|temp}  degrees
-NestSetTempIntent set {Sixty Six|temp}  degrees
-NestSetTempIntent set {Sixty Seven|temp}  degrees
-NestSetTempIntent set {Sixty Eight|temp}  degrees
-NestSetTempIntent set {Sixty Nine|temp}  degrees
-NestSetTempIntent set {Seventy|temp}  degrees
-NestSetTempIntent set {Seventy One|temp}  degrees
-NestSetTempIntent set {Seventy Two|temp}  degrees
-NestSetTempIntent set {Seventy Three|temp}  degrees
-NestSetTempIntent set {Seventy Four|temp}  degrees
-NestSetTempIntent set {Seventy Five|temp}  degrees
-NestSetTempIntent set {Seventy Six|temp}  degrees
-NestSetTempIntent set {Seventy Seven|temp}  degrees
-NestSetTempIntent set {Seventy Eight|temp}  degrees
-NestSetTempIntent set {Seventy Nine|temp}  degrees
-NestSetTempIntent set {Eigthy|temp}  degrees
-NestSetTempIntent set thermostat to {Sixty|temp}
-NestSetTempIntent set thermostat to {Sixty One|temp}
-NestSetTempIntent set thermostat to {Sixty Two|temp}
-NestSetTempIntent set thermostat to {Sixty Three|temp}
-NestSetTempIntent set thermostat to {Sixty Four|temp}
-NestSetTempIntent set thermostat to {Sixty Five|temp}
-NestSetTempIntent set thermostat to {Sixty Six|temp}
-NestSetTempIntent set thermostat to {Sixty Seven|temp}
-NestSetTempIntent set thermostat to {Sixty Eight|temp}
-NestSetTempIntent set thermostat to {Sixty Nine|temp}
-NestSetTempIntent set thermostat to {Seventy|temp}
-NestSetTempIntent set thermostat to {Seventy One|temp}
-NestSetTempIntent set thermostat to {Seventy Two|temp}
-NestSetTempIntent set thermostat to {Seventy Three|temp}
-NestSetTempIntent set thermostat to {Seventy Four|temp}
-NestSetTempIntent set thermostat to {Seventy Five|temp}
-NestSetTempIntent set thermostat to {Seventy Six|temp}
-NestSetTempIntent set thermostat to {Seventy Seven|temp}
-NestSetTempIntent set thermostat to {Seventy Eight|temp}
-NestSetTempIntent set thermostat to {Seventy Nine|temp}
-NestSetTempIntent set thermostat to {Eigthy|temp}
-NestSetTempIntent set thermostat to {Sixty|temp} degrees
-NestSetTempIntent set thermostat to {Sixty One|temp} degrees
-NestSetTempIntent set thermostat to {Sixty Two|temp} degrees
-NestSetTempIntent set thermostat to {Sixty Three|temp} degrees
-NestSetTempIntent set thermostat to {Sixty Four|temp} degrees
-NestSetTempIntent set thermostat to {Sixty Five|temp} degrees
-NestSetTempIntent set thermostat to {Sixty Six|temp} degrees
-NestSetTempIntent set thermostat to {Sixty Seven|temp} degrees
-NestSetTempIntent set thermostat to {Sixty Eight|temp} degrees
-NestSetTempIntent set thermostat to {Sixty Nine|temp} degrees
-NestSetTempIntent set thermostat to {Seventy|temp} degrees
-NestSetTempIntent set thermostat to {Seventy One|temp} degrees
-NestSetTempIntent set thermostat to {Seventy Two|temp} degrees
-NestSetTempIntent set thermostat to {Seventy Three|temp} degrees
-NestSetTempIntent set thermostat to {Seventy Four|temp} degrees
-NestSetTempIntent set thermostat to {Seventy Five|temp} degrees
-NestSetTempIntent set thermostat to {Seventy Six|temp} degrees
-NestSetTempIntent set thermostat to {Seventy Seven|temp} degrees
-NestSetTempIntent set thermostat to {Seventy Eight|temp} degrees
-NestSetTempIntent set thermostat to {Seventy Nine|temp} degrees
-NestSetTempIntent set thermostat to {Eigthy|temp} degrees
-NestSetTempIntent nest to {Sixty|temp}
-NestSetTempIntent nest to {Sixty One|temp}
-NestSetTempIntent nest to {Sixty Two|temp}
-NestSetTempIntent nest to {Sixty Three|temp}
-NestSetTempIntent nest to {Sixty Four|temp}
-NestSetTempIntent nest to {Sixty Five|temp}
-NestSetTempIntent nest to {Sixty Six|temp}
-NestSetTempIntent nest to {Sixty Seven|temp}
-NestSetTempIntent nest to {Sixty Eight|temp}
-NestSetTempIntent nest to {Sixty Nine|temp}
-NestSetTempIntent nest to {Seventy|temp}
-NestSetTempIntent nest to {Seventy One|temp}
-NestSetTempIntent nest to {Seventy Two|temp}
-NestSetTempIntent nest to {Seventy Three|temp}
-NestSetTempIntent nest to {Seventy Four|temp}
-NestSetTempIntent nest to {Seventy Five|temp}
-NestSetTempIntent nest to {Seventy Six|temp}
-NestSetTempIntent nest to {Seventy Seven|temp}
-NestSetTempIntent nest to {Seventy Eight|temp}
-NestSetTempIntent nest to {Seventy Nine|temp}
-NestSetTempIntent nest to {Eigthy|temp}
-NestSetTempIntent nest to {Sixty|temp} degrees
-NestSetTempIntent nest to {Sixty One|temp} degrees
-NestSetTempIntent nest to {Sixty Two|temp} degrees
-NestSetTempIntent nest to {Sixty Three|temp} degrees
-NestSetTempIntent nest to {Sixty Four|temp} degrees
-NestSetTempIntent nest to {Sixty Five|temp} degrees
-NestSetTempIntent nest to {Sixty Six|temp} degrees
-NestSetTempIntent nest to {Sixty Seven|temp} degrees
-NestSetTempIntent nest to {Sixty Eight|temp} degrees
-NestSetTempIntent nest to {Sixty Nine|temp} degrees
-NestSetTempIntent nest to {Seventy|temp} degrees
-NestSetTempIntent nest to {Seventy One|temp} degrees
-NestSetTempIntent nest to {Seventy Two|temp} degrees
-NestSetTempIntent nest to {Seventy Three|temp} degrees
-NestSetTempIntent nest to {Seventy Four|temp} degrees
-NestSetTempIntent nest to {Seventy Five|temp} degrees
-NestSetTempIntent nest to {Seventy Six|temp} degrees
-NestSetTempIntent nest to {Seventy Seven|temp} degrees
-NestSetTempIntent nest to {Seventy Eight|temp} degrees
-NestSetTempIntent nest to {Seventy Nine|temp} degrees
-NestSetTempIntent nest to {Eigthy|temp} degrees
-NestSetTempIntent nest cool to {Sixty|temp}
-NestSetTempIntent nest cool to {Sixty One|temp}
-NestSetTempIntent nest cool to {Sixty Two|temp}
-NestSetTempIntent nest cool to {Sixty Three|temp}
-NestSetTempIntent nest cool to {Sixty Four|temp}
-NestSetTempIntent nest cool to {Sixty Five|temp}
-NestSetTempIntent nest cool to {Sixty Six|temp}
-NestSetTempIntent nest cool to {Sixty Seven|temp}
-NestSetTempIntent nest cool to {Sixty Eight|temp}
-NestSetTempIntent nest cool to {Sixty Nine|temp}
-NestSetTempIntent nest cool to {Seventy|temp}
-NestSetTempIntent nest cool to {Seventy One|temp}
-NestSetTempIntent nest cool to {Seventy Two|temp}
-NestSetTempIntent nest cool to {Seventy Three|temp}
-NestSetTempIntent nest cool to {Seventy Four|temp}
-NestSetTempIntent nest cool to {Seventy Five|temp}
-NestSetTempIntent nest cool to {Seventy Six|temp}
-NestSetTempIntent nest cool to {Seventy Seven|temp}
-NestSetTempIntent nest cool to {Seventy Eight|temp}
-NestSetTempIntent nest cool to {Seventy Nine|temp}
-NestSetTempIntent nest cool to {Eigthy|temp}
-NestSetTempIntent nest cool to {Sixty|temp} degrees
-NestSetTempIntent nest cool to {Sixty One|temp} degrees
-NestSetTempIntent nest cool to {Sixty Two|temp} degrees
-NestSetTempIntent nest cool to {Sixty Three|temp} degrees
-NestSetTempIntent nest cool to {Sixty Four|temp} degrees
-NestSetTempIntent nest cool to {Sixty Five|temp} degrees
-NestSetTempIntent nest cool to {Sixty Six|temp} degrees
-NestSetTempIntent nest cool to {Sixty Seven|temp} degrees
-NestSetTempIntent nest cool to {Sixty Eight|temp} degrees
-NestSetTempIntent nest cool to {Sixty Nine|temp} degrees
-NestSetTempIntent nest cool to {Seventy|temp} degrees
-NestSetTempIntent nest cool to {Seventy One|temp} degrees
-NestSetTempIntent nest cool to {Seventy Two|temp} degrees
-NestSetTempIntent nest cool to {Seventy Three|temp} degrees
-NestSetTempIntent nest cool to {Seventy Four|temp} degrees
-NestSetTempIntent nest cool to {Seventy Five|temp} degrees
-NestSetTempIntent nest cool to {Seventy Six|temp} degrees
-NestSetTempIntent nest cool to {Seventy Seven|temp} degrees
-NestSetTempIntent nest cool to {Seventy Eight|temp} degrees
-NestSetTempIntent nest cool to {Seventy Nine|temp} degrees
-NestSetTempIntent nest cool to {Eigthy|temp} degrees
-NestSetTempIntent temperature to {Sixty|temp}
-NestSetTempIntent temperature to {Sixty One|temp}
-NestSetTempIntent temperature to {Sixty Two|temp}
-NestSetTempIntent temperature to {Sixty Three|temp}
-NestSetTempIntent temperature to {Sixty Four|temp}
-NestSetTempIntent temperature to {Sixty Five|temp}
-NestSetTempIntent temperature to {Sixty Six|temp}
-NestSetTempIntent temperature to {Sixty Seven|temp}
-NestSetTempIntent temperature to {Sixty Eight|temp}
-NestSetTempIntent temperature to {Sixty Nine|temp}
-NestSetTempIntent temperature to {Seventy|temp}
-NestSetTempIntent temperature to {Seventy One|temp}
-NestSetTempIntent temperature to {Seventy Two|temp}
-NestSetTempIntent temperature to {Seventy Three|temp}
-NestSetTempIntent temperature to {Seventy Four|temp}
-NestSetTempIntent temperature to {Seventy Five|temp}
-NestSetTempIntent temperature to {Seventy Six|temp}
-NestSetTempIntent temperature to {Seventy Seven|temp}
-NestSetTempIntent temperature to {Seventy Eight|temp}
-NestSetTempIntent temperature to {Seventy Nine|temp}
-NestSetTempIntent temperature to {Eigthy|temp}
-NestSetTempIntent temperature to {Sixty|temp} degrees
-NestSetTempIntent temperature to {Sixty One|temp} degrees
-NestSetTempIntent temperature to {Sixty Two|temp} degrees
-NestSetTempIntent temperature to {Sixty Three|temp} degrees
-NestSetTempIntent temperature to {Sixty Four|temp} degrees
-NestSetTempIntent temperature to {Sixty Five|temp} degrees
-NestSetTempIntent temperature to {Sixty Six|temp} degrees
-NestSetTempIntent temperature to {Sixty Seven|temp} degrees
-NestSetTempIntent temperature to {Sixty Eight|temp} degrees
-NestSetTempIntent temperature to {Sixty Nine|temp} degrees
-NestSetTempIntent temperature to {Seventy|temp} degrees
-NestSetTempIntent temperature to {Seventy One|temp} degrees
-NestSetTempIntent temperature to {Seventy Two|temp} degrees
-NestSetTempIntent temperature to {Seventy Three|temp} degrees
-NestSetTempIntent temperature to {Seventy Four|temp} degrees
-NestSetTempIntent temperature to {Seventy Five|temp} degrees
-NestSetTempIntent temperature to {Seventy Six|temp} degrees
-NestSetTempIntent temperature to {Seventy Seven|temp} degrees
-NestSetTempIntent temperature to {Seventy Eight|temp} degrees
-NestSetTempIntent temperature to {Seventy Nine|temp} degrees
-NestSetTempIntent temperature to {Eigthy|temp} degrees
+ThermostatSetTempIntent set nest to {Sixty|temp}
+ThermostatSetTempIntent set thermostat to {Sixty|temp}
+ThermostatSetTempIntent set nest to {Sixty One|temp}
+ThermostatSetTempIntent set nest to {Sixty Two|temp}
+ThermostatSetTempIntent set nest to {Sixty Three|temp}
+ThermostatSetTempIntent set nest to {Sixty Four|temp}
+ThermostatSetTempIntent set nest to {Sixty Five|temp}
+ThermostatSetTempIntent set nest to {Sixty Six|temp}
+ThermostatSetTempIntent set nest to {Sixty Seven|temp}
+ThermostatSetTempIntent set nest to {Sixty Eight|temp}
+ThermostatSetTempIntent set nest to {Sixty Nine|temp}
+ThermostatSetTempIntent set nest to {Seventy|temp}
+ThermostatSetTempIntent set nest to {Seventy One|temp}
+ThermostatSetTempIntent set nest to {Seventy Two|temp}
+ThermostatSetTempIntent set nest to {Seventy Three|temp}
+ThermostatSetTempIntent set nest to {Seventy Four|temp}
+ThermostatSetTempIntent set nest to {Seventy Five|temp}
+ThermostatSetTempIntent set nest to {Seventy Six|temp}
+ThermostatSetTempIntent set nest to {Seventy Seven|temp}
+ThermostatSetTempIntent set nest to {Seventy Eight|temp}
+ThermostatSetTempIntent set nest to {Seventy Nine|temp}
+ThermostatSetTempIntent set nest to {Eigthy|temp}
+ThermostatSetTempIntent set thermostat to {Sixty One|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Two|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Three|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Four|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Five|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Six|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Seven|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Eight|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Nine|temp}
+ThermostatSetTempIntent set thermostat to {Seventy|temp}
+ThermostatSetTempIntent set thermostat to {Seventy One|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Two|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Three|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Four|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Five|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Six|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Seven|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Eight|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Nine|temp}
+ThermostatSetTempIntent set thermostat to {Eigthy|temp}
+ThermostatSetTempIntent set nest to {Sixty|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty|temp} degrees
+ThermostatSetTempIntent set nest to {Sixty One|temp} degrees
+ThermostatSetTempIntent set nest to {Sixty Two|temp} degrees
+ThermostatSetTempIntent set nest to {Sixty Three|temp} degrees
+ThermostatSetTempIntent set nest to {Sixty Four|temp} degrees
+ThermostatSetTempIntent set nest to {Sixty Five|temp} degrees
+ThermostatSetTempIntent set nest to {Sixty Six|temp} degrees
+ThermostatSetTempIntent set nest to {Sixty Seven|temp} degrees
+ThermostatSetTempIntent set nest to {Sixty Eight|temp} degrees
+ThermostatSetTempIntent set nest to {Sixty Nine|temp} degrees
+ThermostatSetTempIntent set nest to {Seventy|temp} degrees
+ThermostatSetTempIntent set nest to {Seventy One|temp} degrees
+ThermostatSetTempIntent set nest to {Seventy Two|temp} degrees
+ThermostatSetTempIntent set nest to {Seventy Three|temp} degrees
+ThermostatSetTempIntent set nest to {Seventy Four|temp} degrees
+ThermostatSetTempIntent set nest to {Seventy Five|temp} degrees
+ThermostatSetTempIntent set nest to {Seventy Six|temp} degrees
+ThermostatSetTempIntent set nest to {Seventy Seven|temp} degrees
+ThermostatSetTempIntent set nest to {Seventy Eight|temp} degrees
+ThermostatSetTempIntent set nest to {Seventy Nine|temp} degrees
+ThermostatSetTempIntent set nest to {Eigthy|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty One|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Two|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Three|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Four|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Five|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Six|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Seven|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Eight|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Nine|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy One|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Two|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Three|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Four|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Five|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Six|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Seven|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Eight|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Nine|temp} degrees
+ThermostatSetTempIntent set thermostat to {Eigthy|temp} degrees
+ThermostatSetTempIntent have nest cool to {Sixty|temp}
+ThermostatSetTempIntent have thermostat cool to {Sixty|temp}
+ThermostatSetTempIntent have nest cool to {Sixty One|temp}
+ThermostatSetTempIntent have nest cool to {Sixty Two|temp}
+ThermostatSetTempIntent have nest cool to {Sixty Three|temp}
+ThermostatSetTempIntent have nest cool to {Sixty Four|temp}
+ThermostatSetTempIntent have nest cool to {Sixty Five|temp}
+ThermostatSetTempIntent have nest cool to {Sixty Six|temp}
+ThermostatSetTempIntent have nest cool to {Sixty Seven|temp}
+ThermostatSetTempIntent have nest cool to {Sixty Eight|temp}
+ThermostatSetTempIntent have nest cool to {Sixty Nine|temp}
+ThermostatSetTempIntent have nest cool to {Seventy|temp}
+ThermostatSetTempIntent have nest cool to {Seventy One|temp}
+ThermostatSetTempIntent have nest cool to {Seventy Two|temp}
+ThermostatSetTempIntent have nest cool to {Seventy Three|temp}
+ThermostatSetTempIntent have nest cool to {Seventy Four|temp}
+ThermostatSetTempIntent have nest cool to {Seventy Five|temp}
+ThermostatSetTempIntent have nest cool to {Seventy Six|temp}
+ThermostatSetTempIntent have nest cool to {Seventy Seven|temp}
+ThermostatSetTempIntent have nest cool to {Seventy Eight|temp}
+ThermostatSetTempIntent have nest cool to {Seventy Nine|temp}
+ThermostatSetTempIntent have nest cool to {Eigthy|temp}
+ThermostatSetTempIntent have thermostat cool to {Sixty One|temp}
+ThermostatSetTempIntent have thermostat cool to {Sixty Two|temp}
+ThermostatSetTempIntent have thermostat cool to {Sixty Three|temp}
+ThermostatSetTempIntent have thermostat cool to {Sixty Four|temp}
+ThermostatSetTempIntent have thermostat cool to {Sixty Five|temp}
+ThermostatSetTempIntent have thermostat cool to {Sixty Six|temp}
+ThermostatSetTempIntent have thermostat cool to {Sixty Seven|temp}
+ThermostatSetTempIntent have thermostat cool to {Sixty Eight|temp}
+ThermostatSetTempIntent have thermostat cool to {Sixty Nine|temp}
+ThermostatSetTempIntent have thermostat cool to {Seventy|temp}
+ThermostatSetTempIntent have thermostat cool to {Seventy One|temp}
+ThermostatSetTempIntent have thermostat cool to {Seventy Two|temp}
+ThermostatSetTempIntent have thermostat cool to {Seventy Three|temp}
+ThermostatSetTempIntent have thermostat cool to {Seventy Four|temp}
+ThermostatSetTempIntent have thermostat cool to {Seventy Five|temp}
+ThermostatSetTempIntent have thermostat cool to {Seventy Six|temp}
+ThermostatSetTempIntent have thermostat cool to {Seventy Seven|temp}
+ThermostatSetTempIntent have thermostat cool to {Seventy Eight|temp}
+ThermostatSetTempIntent have thermostat cool to {Seventy Nine|temp}
+ThermostatSetTempIntent have thermostat cool to {Eigthy|temp}
+ThermostatSetTempIntent have nest cool to {Sixty|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Sixty|temp} degrees
+ThermostatSetTempIntent have nest cool to {Sixty One|temp} degrees
+ThermostatSetTempIntent have nest cool to {Sixty Two|temp} degrees
+ThermostatSetTempIntent have nest cool to {Sixty Three|temp} degrees
+ThermostatSetTempIntent have nest cool to {Sixty Four|temp} degrees
+ThermostatSetTempIntent have nest cool to {Sixty Five|temp} degrees
+ThermostatSetTempIntent have nest cool to {Sixty Six|temp} degrees
+ThermostatSetTempIntent have nest cool to {Sixty Seven|temp} degrees
+ThermostatSetTempIntent have nest cool to {Sixty Eight|temp} degrees
+ThermostatSetTempIntent have nest cool to {Sixty Nine|temp} degrees
+ThermostatSetTempIntent have nest cool to {Seventy|temp} degrees
+ThermostatSetTempIntent have nest cool to {Seventy One|temp} degrees
+ThermostatSetTempIntent have nest cool to {Seventy Two|temp} degrees
+ThermostatSetTempIntent have nest cool to {Seventy Three|temp} degrees
+ThermostatSetTempIntent have nest cool to {Seventy Four|temp} degrees
+ThermostatSetTempIntent have nest cool to {Seventy Five|temp} degrees
+ThermostatSetTempIntent have nest cool to {Seventy Six|temp} degrees
+ThermostatSetTempIntent have nest cool to {Seventy Seven|temp} degrees
+ThermostatSetTempIntent have nest cool to {Seventy Eight|temp} degrees
+ThermostatSetTempIntent have nest cool to {Seventy Nine|temp} degrees
+ThermostatSetTempIntent have nest cool to {Eigthy|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Sixty One|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Sixty Two|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Sixty Three|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Sixty Four|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Sixty Five|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Sixty Six|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Sixty Seven|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Sixty Eight|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Sixty Nine|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Seventy|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Seventy One|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Seventy Two|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Seventy Three|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Seventy Four|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Seventy Five|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Seventy Six|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Seventy Seven|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Seventy Eight|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Seventy Nine|temp} degrees
+ThermostatSetTempIntent have thermostat cool to {Eigthy|temp} degrees
+ThermostatSetTempIntent set temperature to {Sixty|temp}
+ThermostatSetTempIntent set temperature to {Sixty One|temp}
+ThermostatSetTempIntent set temperature to {Sixty Two|temp}
+ThermostatSetTempIntent set temperature to {Sixty Three|temp}
+ThermostatSetTempIntent set temperature to {Sixty Four|temp}
+ThermostatSetTempIntent set temperature to {Sixty Five|temp}
+ThermostatSetTempIntent set temperature to {Sixty Six|temp}
+ThermostatSetTempIntent set temperature to {Sixty Seven|temp}
+ThermostatSetTempIntent set temperature to {Sixty Eight|temp}
+ThermostatSetTempIntent set temperature to {Sixty Nine|temp}
+ThermostatSetTempIntent set temperature to {Seventy|temp}
+ThermostatSetTempIntent set temperature to {Seventy One|temp}
+ThermostatSetTempIntent set temperature to {Seventy Two|temp}
+ThermostatSetTempIntent set temperature to {Seventy Three|temp}
+ThermostatSetTempIntent set temperature to {Seventy Four|temp}
+ThermostatSetTempIntent set temperature to {Seventy Five|temp}
+ThermostatSetTempIntent set temperature to {Seventy Six|temp}
+ThermostatSetTempIntent set temperature to {Seventy Seven|temp}
+ThermostatSetTempIntent set temperature to {Seventy Eight|temp}
+ThermostatSetTempIntent set temperature to {Seventy Nine|temp}
+ThermostatSetTempIntent set temperature to {Eigthy|temp}
+ThermostatSetTempIntent set temperature to {Sixty|temp} degrees
+ThermostatSetTempIntent set temperature to {Sixty One|temp} degrees
+ThermostatSetTempIntent set temperature to {Sixty Two|temp} degrees
+ThermostatSetTempIntent set temperature to {Sixty Three|temp} degrees
+ThermostatSetTempIntent set temperature to {Sixty Four|temp} degrees
+ThermostatSetTempIntent set temperature to {Sixty Five|temp} degrees
+ThermostatSetTempIntent set temperature to {Sixty Six|temp} degrees
+ThermostatSetTempIntent set temperature to {Sixty Seven|temp} degrees
+ThermostatSetTempIntent set temperature to {Sixty Eight|temp} degrees
+ThermostatSetTempIntent set temperature to {Sixty Nine|temp} degrees
+ThermostatSetTempIntent set temperature to {Seventy|temp} degrees
+ThermostatSetTempIntent set temperature to {Seventy One|temp} degrees
+ThermostatSetTempIntent set temperature to {Seventy Two|temp} degrees
+ThermostatSetTempIntent set temperature to {Seventy Three|temp} degrees
+ThermostatSetTempIntent set temperature to {Seventy Four|temp} degrees
+ThermostatSetTempIntent set temperature to {Seventy Five|temp} degrees
+ThermostatSetTempIntent set temperature to {Seventy Six|temp} degrees
+ThermostatSetTempIntent set temperature to {Seventy Seven|temp} degrees
+ThermostatSetTempIntent set temperature to {Seventy Eight|temp} degrees
+ThermostatSetTempIntent set temperature to {Seventy Nine|temp} degrees
+ThermostatSetTempIntent set temperature to {Eigthy|temp} degrees
+ThermostatSetTempIntent set cool to {Sixty|temp}
+ThermostatSetTempIntent set cool to {Sixty One|temp}
+ThermostatSetTempIntent set cool to {Sixty Two|temp}
+ThermostatSetTempIntent set cool to {Sixty Three|temp}
+ThermostatSetTempIntent set cool to {Sixty Four|temp}
+ThermostatSetTempIntent set cool to {Sixty Five|temp}
+ThermostatSetTempIntent set cool to {Sixty Six|temp}
+ThermostatSetTempIntent set cool to {Sixty Seven|temp}
+ThermostatSetTempIntent set cool to {Sixty Eight|temp}
+ThermostatSetTempIntent set cool to {Sixty Nine|temp}
+ThermostatSetTempIntent set cool to {Seventy|temp}
+ThermostatSetTempIntent set cool to {Seventy One|temp}
+ThermostatSetTempIntent set cool to {Seventy Two|temp}
+ThermostatSetTempIntent set cool to {Seventy Three|temp}
+ThermostatSetTempIntent set cool to {Seventy Four|temp}
+ThermostatSetTempIntent set cool to {Seventy Five|temp}
+ThermostatSetTempIntent set cool to {Seventy Six|temp}
+ThermostatSetTempIntent set cool to {Seventy Seven|temp}
+ThermostatSetTempIntent set cool to {Seventy Eight|temp}
+ThermostatSetTempIntent set cool to {Seventy Nine|temp}
+ThermostatSetTempIntent set cool to {Eigthy|temp}
+ThermostatSetTempIntent set cool to {Sixty|temp} degrees
+ThermostatSetTempIntent set cool to {Sixty One|temp} degrees
+ThermostatSetTempIntent set cool to {Sixty Two|temp} degrees
+ThermostatSetTempIntent set cool to {Sixty Three|temp} degrees
+ThermostatSetTempIntent set cool to {Sixty Four|temp} degrees
+ThermostatSetTempIntent set cool to {Sixty Five|temp} degrees
+ThermostatSetTempIntent set cool to {Sixty Six|temp} degrees
+ThermostatSetTempIntent set cool to {Sixty Seven|temp} degrees
+ThermostatSetTempIntent set cool to {Sixty Eight|temp} degrees
+ThermostatSetTempIntent set cool to {Sixty Nine|temp} degrees
+ThermostatSetTempIntent set cool to {Seventy|temp} degrees
+ThermostatSetTempIntent set cool to {Seventy One|temp} degrees
+ThermostatSetTempIntent set cool to {Seventy Two|temp} degrees
+ThermostatSetTempIntent set cool to {Seventy Three|temp} degrees
+ThermostatSetTempIntent set cool to {Seventy Four|temp} degrees
+ThermostatSetTempIntent set cool to {Seventy Five|temp} degrees
+ThermostatSetTempIntent set cool to {Seventy Six|temp} degrees
+ThermostatSetTempIntent set cool to {Seventy Seven|temp} degrees
+ThermostatSetTempIntent set cool to {Seventy Eight|temp} degrees
+ThermostatSetTempIntent set cool to {Seventy Nine|temp} degrees
+ThermostatSetTempIntent set cool to {Eigthy|temp} degrees
+ThermostatSetTempIntent set to {Sixty|temp}
+ThermostatSetTempIntent set to {Sixty One|temp}
+ThermostatSetTempIntent set to {Sixty Two|temp}
+ThermostatSetTempIntent set to {Sixty Three|temp}
+ThermostatSetTempIntent set to {Sixty Four|temp}
+ThermostatSetTempIntent set to {Sixty Five|temp}
+ThermostatSetTempIntent set to {Sixty Six|temp}
+ThermostatSetTempIntent set to {Sixty Seven|temp}
+ThermostatSetTempIntent set to {Sixty Eight|temp}
+ThermostatSetTempIntent set to {Sixty Nine|temp}
+ThermostatSetTempIntent set to {Seventy|temp}
+ThermostatSetTempIntent set to {Seventy One|temp}
+ThermostatSetTempIntent set to {Seventy Two|temp}
+ThermostatSetTempIntent set to {Seventy Three|temp}
+ThermostatSetTempIntent set to {Seventy Four|temp}
+ThermostatSetTempIntent set to {Seventy Five|temp}
+ThermostatSetTempIntent set to {Seventy Six|temp}
+ThermostatSetTempIntent set to {Seventy Seven|temp}
+ThermostatSetTempIntent set to {Seventy Eight|temp}
+ThermostatSetTempIntent set to {Seventy Nine|temp}
+ThermostatSetTempIntent set to {Eigthy|temp}
+ThermostatSetTempIntent set to {Sixty|temp}  degrees
+ThermostatSetTempIntent set to {Sixty One|temp}  degrees
+ThermostatSetTempIntent set to {Sixty Two|temp}  degrees
+ThermostatSetTempIntent set to {Sixty Three|temp}  degrees
+ThermostatSetTempIntent set to {Sixty Four|temp}  degrees
+ThermostatSetTempIntent set to {Sixty Five|temp}  degrees
+ThermostatSetTempIntent set to {Sixty Six|temp}  degrees
+ThermostatSetTempIntent set to {Sixty Seven|temp}  degrees
+ThermostatSetTempIntent set to {Sixty Eight|temp}  degrees
+ThermostatSetTempIntent set to {Sixty Nine|temp}  degrees
+ThermostatSetTempIntent set to {Seventy|temp}  degrees
+ThermostatSetTempIntent set to {Seventy One|temp}  degrees
+ThermostatSetTempIntent set to {Seventy Two|temp}  degrees
+ThermostatSetTempIntent set to {Seventy Three|temp}  degrees
+ThermostatSetTempIntent set to {Seventy Four|temp}  degrees
+ThermostatSetTempIntent set to {Seventy Five|temp}  degrees
+ThermostatSetTempIntent set to {Seventy Six|temp}  degrees
+ThermostatSetTempIntent set to {Seventy Seven|temp}  degrees
+ThermostatSetTempIntent set to {Seventy Eight|temp}  degrees
+ThermostatSetTempIntent set to {Seventy Nine|temp}  degrees
+ThermostatSetTempIntent set to {Eigthy|temp}  degrees
+ThermostatSetTempIntent set {Sixty|temp}
+ThermostatSetTempIntent set {Sixty One|temp}
+ThermostatSetTempIntent set {Sixty Two|temp}
+ThermostatSetTempIntent set {Sixty Three|temp}
+ThermostatSetTempIntent set {Sixty Four|temp}
+ThermostatSetTempIntent set {Sixty Five|temp}
+ThermostatSetTempIntent set {Sixty Six|temp}
+ThermostatSetTempIntent set {Sixty Seven|temp}
+ThermostatSetTempIntent set {Sixty Eight|temp}
+ThermostatSetTempIntent set {Sixty Nine|temp}
+ThermostatSetTempIntent set {Seventy|temp}
+ThermostatSetTempIntent set {Seventy One|temp}
+ThermostatSetTempIntent set {Seventy Two|temp}
+ThermostatSetTempIntent set {Seventy Three|temp}
+ThermostatSetTempIntent set {Seventy Four|temp}
+ThermostatSetTempIntent set {Seventy Five|temp}
+ThermostatSetTempIntent set {Seventy Six|temp}
+ThermostatSetTempIntent set {Seventy Seven|temp}
+ThermostatSetTempIntent set {Seventy Eight|temp}
+ThermostatSetTempIntent set {Seventy Nine|temp}
+ThermostatSetTempIntent set {Eigthy|temp}
+ThermostatSetTempIntent set {Sixty|temp}  degrees
+ThermostatSetTempIntent set {Sixty One|temp}  degrees
+ThermostatSetTempIntent set {Sixty Two|temp}  degrees
+ThermostatSetTempIntent set {Sixty Three|temp}  degrees
+ThermostatSetTempIntent set {Sixty Four|temp}  degrees
+ThermostatSetTempIntent set {Sixty Five|temp}  degrees
+ThermostatSetTempIntent set {Sixty Six|temp}  degrees
+ThermostatSetTempIntent set {Sixty Seven|temp}  degrees
+ThermostatSetTempIntent set {Sixty Eight|temp}  degrees
+ThermostatSetTempIntent set {Sixty Nine|temp}  degrees
+ThermostatSetTempIntent set {Seventy|temp}  degrees
+ThermostatSetTempIntent set {Seventy One|temp}  degrees
+ThermostatSetTempIntent set {Seventy Two|temp}  degrees
+ThermostatSetTempIntent set {Seventy Three|temp}  degrees
+ThermostatSetTempIntent set {Seventy Four|temp}  degrees
+ThermostatSetTempIntent set {Seventy Five|temp}  degrees
+ThermostatSetTempIntent set {Seventy Six|temp}  degrees
+ThermostatSetTempIntent set {Seventy Seven|temp}  degrees
+ThermostatSetTempIntent set {Seventy Eight|temp}  degrees
+ThermostatSetTempIntent set {Seventy Nine|temp}  degrees
+ThermostatSetTempIntent set {Eigthy|temp}  degrees
+ThermostatSetTempIntent set thermostat to {Sixty|temp}
+ThermostatSetTempIntent set thermostat to {Sixty One|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Two|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Three|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Four|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Five|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Six|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Seven|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Eight|temp}
+ThermostatSetTempIntent set thermostat to {Sixty Nine|temp}
+ThermostatSetTempIntent set thermostat to {Seventy|temp}
+ThermostatSetTempIntent set thermostat to {Seventy One|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Two|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Three|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Four|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Five|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Six|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Seven|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Eight|temp}
+ThermostatSetTempIntent set thermostat to {Seventy Nine|temp}
+ThermostatSetTempIntent set thermostat to {Eigthy|temp}
+ThermostatSetTempIntent set thermostat to {Sixty|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty One|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Two|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Three|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Four|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Five|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Six|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Seven|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Eight|temp} degrees
+ThermostatSetTempIntent set thermostat to {Sixty Nine|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy One|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Two|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Three|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Four|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Five|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Six|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Seven|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Eight|temp} degrees
+ThermostatSetTempIntent set thermostat to {Seventy Nine|temp} degrees
+ThermostatSetTempIntent set thermostat to {Eigthy|temp} degrees
+ThermostatSetTempIntent nest to {Sixty|temp}
+ThermostatSetTempIntent thermostat to {Sixty|temp}
+ThermostatSetTempIntent nest to {Sixty One|temp}
+ThermostatSetTempIntent nest to {Sixty Two|temp}
+ThermostatSetTempIntent nest to {Sixty Three|temp}
+ThermostatSetTempIntent nest to {Sixty Four|temp}
+ThermostatSetTempIntent nest to {Sixty Five|temp}
+ThermostatSetTempIntent nest to {Sixty Six|temp}
+ThermostatSetTempIntent nest to {Sixty Seven|temp}
+ThermostatSetTempIntent nest to {Sixty Eight|temp}
+ThermostatSetTempIntent nest to {Sixty Nine|temp}
+ThermostatSetTempIntent nest to {Seventy|temp}
+ThermostatSetTempIntent nest to {Seventy One|temp}
+ThermostatSetTempIntent nest to {Seventy Two|temp}
+ThermostatSetTempIntent nest to {Seventy Three|temp}
+ThermostatSetTempIntent nest to {Seventy Four|temp}
+ThermostatSetTempIntent nest to {Seventy Five|temp}
+ThermostatSetTempIntent nest to {Seventy Six|temp}
+ThermostatSetTempIntent nest to {Seventy Seven|temp}
+ThermostatSetTempIntent nest to {Seventy Eight|temp}
+ThermostatSetTempIntent nest to {Seventy Nine|temp}
+ThermostatSetTempIntent nest to {Eigthy|temp}
+ThermostatSetTempIntent thermostat to {Sixty One|temp}
+ThermostatSetTempIntent thermostat to {Sixty Two|temp}
+ThermostatSetTempIntent thermostat to {Sixty Three|temp}
+ThermostatSetTempIntent thermostat to {Sixty Four|temp}
+ThermostatSetTempIntent thermostat to {Sixty Five|temp}
+ThermostatSetTempIntent thermostat to {Sixty Six|temp}
+ThermostatSetTempIntent thermostat to {Sixty Seven|temp}
+ThermostatSetTempIntent thermostat to {Sixty Eight|temp}
+ThermostatSetTempIntent thermostat to {Sixty Nine|temp}
+ThermostatSetTempIntent thermostat to {Seventy|temp}
+ThermostatSetTempIntent thermostat to {Seventy One|temp}
+ThermostatSetTempIntent thermostat to {Seventy Two|temp}
+ThermostatSetTempIntent thermostat to {Seventy Three|temp}
+ThermostatSetTempIntent thermostat to {Seventy Four|temp}
+ThermostatSetTempIntent thermostat to {Seventy Five|temp}
+ThermostatSetTempIntent thermostat to {Seventy Six|temp}
+ThermostatSetTempIntent thermostat to {Seventy Seven|temp}
+ThermostatSetTempIntent thermostat to {Seventy Eight|temp}
+ThermostatSetTempIntent thermostat to {Seventy Nine|temp}
+ThermostatSetTempIntent thermostat to {Eigthy|temp}
+ThermostatSetTempIntent nest to {Sixty|temp} degrees
+ThermostatSetTempIntent thermostat to {Sixty|temp} degrees
+ThermostatSetTempIntent nest to {Sixty One|temp} degrees
+ThermostatSetTempIntent nest to {Sixty Two|temp} degrees
+ThermostatSetTempIntent nest to {Sixty Three|temp} degrees
+ThermostatSetTempIntent nest to {Sixty Four|temp} degrees
+ThermostatSetTempIntent nest to {Sixty Five|temp} degrees
+ThermostatSetTempIntent nest to {Sixty Six|temp} degrees
+ThermostatSetTempIntent nest to {Sixty Seven|temp} degrees
+ThermostatSetTempIntent nest to {Sixty Eight|temp} degrees
+ThermostatSetTempIntent nest to {Sixty Nine|temp} degrees
+ThermostatSetTempIntent nest to {Seventy|temp} degrees
+ThermostatSetTempIntent nest to {Seventy One|temp} degrees
+ThermostatSetTempIntent nest to {Seventy Two|temp} degrees
+ThermostatSetTempIntent nest to {Seventy Three|temp} degrees
+ThermostatSetTempIntent nest to {Seventy Four|temp} degrees
+ThermostatSetTempIntent nest to {Seventy Five|temp} degrees
+ThermostatSetTempIntent nest to {Seventy Six|temp} degrees
+ThermostatSetTempIntent nest to {Seventy Seven|temp} degrees
+ThermostatSetTempIntent nest to {Seventy Eight|temp} degrees
+ThermostatSetTempIntent nest to {Seventy Nine|temp} degrees
+ThermostatSetTempIntent nest to {Eigthy|temp} degrees
+ThermostatSetTempIntent thermostat to {Sixty One|temp} degrees
+ThermostatSetTempIntent thermostat to {Sixty Two|temp} degrees
+ThermostatSetTempIntent thermostat to {Sixty Three|temp} degrees
+ThermostatSetTempIntent thermostat to {Sixty Four|temp} degrees
+ThermostatSetTempIntent thermostat to {Sixty Five|temp} degrees
+ThermostatSetTempIntent thermostat to {Sixty Six|temp} degrees
+ThermostatSetTempIntent thermostat to {Sixty Seven|temp} degrees
+ThermostatSetTempIntent thermostat to {Sixty Eight|temp} degrees
+ThermostatSetTempIntent thermostat to {Sixty Nine|temp} degrees
+ThermostatSetTempIntent thermostat to {Seventy|temp} degrees
+ThermostatSetTempIntent thermostat to {Seventy One|temp} degrees
+ThermostatSetTempIntent thermostat to {Seventy Two|temp} degrees
+ThermostatSetTempIntent thermostat to {Seventy Three|temp} degrees
+ThermostatSetTempIntent thermostat to {Seventy Four|temp} degrees
+ThermostatSetTempIntent thermostat to {Seventy Five|temp} degrees
+ThermostatSetTempIntent thermostat to {Seventy Six|temp} degrees
+ThermostatSetTempIntent thermostat to {Seventy Seven|temp} degrees
+ThermostatSetTempIntent thermostat to {Seventy Eight|temp} degrees
+ThermostatSetTempIntent thermostat to {Seventy Nine|temp} degrees
+ThermostatSetTempIntent thermostat to {Eigthy|temp} degrees
+ThermostatSetTempIntent nest cool to {Sixty|temp}
+ThermostatSetTempIntent thermostat cool to {Sixty|temp}
+ThermostatSetTempIntent nest cool to {Sixty One|temp}
+ThermostatSetTempIntent nest cool to {Sixty Two|temp}
+ThermostatSetTempIntent nest cool to {Sixty Three|temp}
+ThermostatSetTempIntent nest cool to {Sixty Four|temp}
+ThermostatSetTempIntent nest cool to {Sixty Five|temp}
+ThermostatSetTempIntent nest cool to {Sixty Six|temp}
+ThermostatSetTempIntent nest cool to {Sixty Seven|temp}
+ThermostatSetTempIntent nest cool to {Sixty Eight|temp}
+ThermostatSetTempIntent nest cool to {Sixty Nine|temp}
+ThermostatSetTempIntent nest cool to {Seventy|temp}
+ThermostatSetTempIntent nest cool to {Seventy One|temp}
+ThermostatSetTempIntent nest cool to {Seventy Two|temp}
+ThermostatSetTempIntent nest cool to {Seventy Three|temp}
+ThermostatSetTempIntent nest cool to {Seventy Four|temp}
+ThermostatSetTempIntent nest cool to {Seventy Five|temp}
+ThermostatSetTempIntent nest cool to {Seventy Six|temp}
+ThermostatSetTempIntent nest cool to {Seventy Seven|temp}
+ThermostatSetTempIntent nest cool to {Seventy Eight|temp}
+ThermostatSetTempIntent nest cool to {Seventy Nine|temp}
+ThermostatSetTempIntent nest cool to {Eigthy|temp}
+ThermostatSetTempIntent thermostat cool to {Sixty One|temp}
+ThermostatSetTempIntent thermostat cool to {Sixty Two|temp}
+ThermostatSetTempIntent thermostat cool to {Sixty Three|temp}
+ThermostatSetTempIntent thermostat cool to {Sixty Four|temp}
+ThermostatSetTempIntent thermostat cool to {Sixty Five|temp}
+ThermostatSetTempIntent thermostat cool to {Sixty Six|temp}
+ThermostatSetTempIntent thermostat cool to {Sixty Seven|temp}
+ThermostatSetTempIntent thermostat cool to {Sixty Eight|temp}
+ThermostatSetTempIntent thermostat cool to {Sixty Nine|temp}
+ThermostatSetTempIntent thermostat cool to {Seventy|temp}
+ThermostatSetTempIntent thermostat cool to {Seventy One|temp}
+ThermostatSetTempIntent thermostat cool to {Seventy Two|temp}
+ThermostatSetTempIntent thermostat cool to {Seventy Three|temp}
+ThermostatSetTempIntent thermostat cool to {Seventy Four|temp}
+ThermostatSetTempIntent thermostat cool to {Seventy Five|temp}
+ThermostatSetTempIntent thermostat cool to {Seventy Six|temp}
+ThermostatSetTempIntent thermostat cool to {Seventy Seven|temp}
+ThermostatSetTempIntent thermostat cool to {Seventy Eight|temp}
+ThermostatSetTempIntent thermostat cool to {Seventy Nine|temp}
+ThermostatSetTempIntent thermostat cool to {Eigthy|temp}
+ThermostatSetTempIntent nest cool to {Sixty|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Sixty|temp} degrees
+ThermostatSetTempIntent nest cool to {Sixty One|temp} degrees
+ThermostatSetTempIntent nest cool to {Sixty Two|temp} degrees
+ThermostatSetTempIntent nest cool to {Sixty Three|temp} degrees
+ThermostatSetTempIntent nest cool to {Sixty Four|temp} degrees
+ThermostatSetTempIntent nest cool to {Sixty Five|temp} degrees
+ThermostatSetTempIntent nest cool to {Sixty Six|temp} degrees
+ThermostatSetTempIntent nest cool to {Sixty Seven|temp} degrees
+ThermostatSetTempIntent nest cool to {Sixty Eight|temp} degrees
+ThermostatSetTempIntent nest cool to {Sixty Nine|temp} degrees
+ThermostatSetTempIntent nest cool to {Seventy|temp} degrees
+ThermostatSetTempIntent nest cool to {Seventy One|temp} degrees
+ThermostatSetTempIntent nest cool to {Seventy Two|temp} degrees
+ThermostatSetTempIntent nest cool to {Seventy Three|temp} degrees
+ThermostatSetTempIntent nest cool to {Seventy Four|temp} degrees
+ThermostatSetTempIntent nest cool to {Seventy Five|temp} degrees
+ThermostatSetTempIntent nest cool to {Seventy Six|temp} degrees
+ThermostatSetTempIntent nest cool to {Seventy Seven|temp} degrees
+ThermostatSetTempIntent nest cool to {Seventy Eight|temp} degrees
+ThermostatSetTempIntent nest cool to {Seventy Nine|temp} degrees
+ThermostatSetTempIntent nest cool to {Eigthy|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Sixty One|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Sixty Two|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Sixty Three|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Sixty Four|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Sixty Five|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Sixty Six|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Sixty Seven|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Sixty Eight|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Sixty Nine|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Seventy|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Seventy One|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Seventy Two|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Seventy Three|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Seventy Four|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Seventy Five|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Seventy Six|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Seventy Seven|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Seventy Eight|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Seventy Nine|temp} degrees
+ThermostatSetTempIntent thermostat cool to {Eigthy|temp} degrees
+ThermostatSetTempIntent temperature to {Sixty|temp}
+ThermostatSetTempIntent temperature to {Sixty One|temp}
+ThermostatSetTempIntent temperature to {Sixty Two|temp}
+ThermostatSetTempIntent temperature to {Sixty Three|temp}
+ThermostatSetTempIntent temperature to {Sixty Four|temp}
+ThermostatSetTempIntent temperature to {Sixty Five|temp}
+ThermostatSetTempIntent temperature to {Sixty Six|temp}
+ThermostatSetTempIntent temperature to {Sixty Seven|temp}
+ThermostatSetTempIntent temperature to {Sixty Eight|temp}
+ThermostatSetTempIntent temperature to {Sixty Nine|temp}
+ThermostatSetTempIntent temperature to {Seventy|temp}
+ThermostatSetTempIntent temperature to {Seventy One|temp}
+ThermostatSetTempIntent temperature to {Seventy Two|temp}
+ThermostatSetTempIntent temperature to {Seventy Three|temp}
+ThermostatSetTempIntent temperature to {Seventy Four|temp}
+ThermostatSetTempIntent temperature to {Seventy Five|temp}
+ThermostatSetTempIntent temperature to {Seventy Six|temp}
+ThermostatSetTempIntent temperature to {Seventy Seven|temp}
+ThermostatSetTempIntent temperature to {Seventy Eight|temp}
+ThermostatSetTempIntent temperature to {Seventy Nine|temp}
+ThermostatSetTempIntent temperature to {Eigthy|temp}
+ThermostatSetTempIntent temperature to {Sixty|temp} degrees
+ThermostatSetTempIntent temperature to {Sixty One|temp} degrees
+ThermostatSetTempIntent temperature to {Sixty Two|temp} degrees
+ThermostatSetTempIntent temperature to {Sixty Three|temp} degrees
+ThermostatSetTempIntent temperature to {Sixty Four|temp} degrees
+ThermostatSetTempIntent temperature to {Sixty Five|temp} degrees
+ThermostatSetTempIntent temperature to {Sixty Six|temp} degrees
+ThermostatSetTempIntent temperature to {Sixty Seven|temp} degrees
+ThermostatSetTempIntent temperature to {Sixty Eight|temp} degrees
+ThermostatSetTempIntent temperature to {Sixty Nine|temp} degrees
+ThermostatSetTempIntent temperature to {Seventy|temp} degrees
+ThermostatSetTempIntent temperature to {Seventy One|temp} degrees
+ThermostatSetTempIntent temperature to {Seventy Two|temp} degrees
+ThermostatSetTempIntent temperature to {Seventy Three|temp} degrees
+ThermostatSetTempIntent temperature to {Seventy Four|temp} degrees
+ThermostatSetTempIntent temperature to {Seventy Five|temp} degrees
+ThermostatSetTempIntent temperature to {Seventy Six|temp} degrees
+ThermostatSetTempIntent temperature to {Seventy Seven|temp} degrees
+ThermostatSetTempIntent temperature to {Seventy Eight|temp} degrees
+ThermostatSetTempIntent temperature to {Seventy Nine|temp} degrees
+ThermostatSetTempIntent temperature to {Eigthy|temp} degrees
 
-NestCoolDownIntent turn the temperature down
-NestCoolDownIntent temperature down
-NestCoolDownIntent I'm too warm
-NestCoolDownIntent too warm
-NestCoolDownIntent react to burn
-NestCoolDownIntent I'm burning up
-NestCoolDownIntent burning up
-NestCoolDownIntent i'm too hot
-NestCoolDownIntent too hot
-NestCoolDownIntent cool down
-NestCoolDownIntent cool the house down
-NestCoolDownIntent turn the thermostat down
-NestCoolDownIntent thermostat down
-NestCoolDownIntent the house is on fire
-NestCoolDownIntent hot as hell
-NestCoolDownIntent hot as hell's fiery pits
-NestCoolDownIntent hot as the fiery pits of hell
-NestCoolDownIntent its hot as the fiery pits of hell
-NestCoolDownIntent its hot as hell
-NestCoolDownIntent its hot as hell's fiery pits
-NestCoolDownIntent it is as hot as the fiery pits of hell
-NestCoolDownIntent it is hot as hell
-NestCoolDownIntent burned
+ThermostatCoolDownIntent turn the temperature down
+ThermostatCoolDownIntent temperature down
+ThermostatCoolDownIntent I'm too warm
+ThermostatCoolDownIntent too warm
+ThermostatCoolDownIntent react to burn
+ThermostatCoolDownIntent I'm burning up
+ThermostatCoolDownIntent burning up
+ThermostatCoolDownIntent i'm too hot
+ThermostatCoolDownIntent too hot
+ThermostatCoolDownIntent cool down
+ThermostatCoolDownIntent cool the house down
+ThermostatCoolDownIntent turn the thermostat down
+ThermostatCoolDownIntent thermostat down
+ThermostatCoolDownIntent the house is on fire
+ThermostatCoolDownIntent hot as hell
+ThermostatCoolDownIntent hot as hell's fiery pits
+ThermostatCoolDownIntent hot as the fiery pits of hell
+ThermostatCoolDownIntent its hot as the fiery pits of hell
+ThermostatCoolDownIntent its hot as hell
+ThermostatCoolDownIntent its hot as hell's fiery pits
+ThermostatCoolDownIntent it is as hot as the fiery pits of hell
+ThermostatCoolDownIntent it is hot as hell
+ThermostatCoolDownIntent burned
 
-NestWarmUpIntent turn the temperature up
-NestWarmUpIntent temperature up
-NestWarmUpIntent I am too cold
-NestWarmUpIntent I'm too cold
-NestWarmUpIntent it is too cool
-NestWarmUpIntent it is too cold
-NestWarmUpIntent it is freezing
-NestWarmUpIntent it's freezing
-NestWarmUpIntent it is chilly
-NestWarmUpIntent its chilly
-NestWarmUpIntent it is like ice
-NestWarmUpIntent its like ice
-NestWarmUpIntent warm up the house
-NestWarmUpIntent it is nippy
-NestWarmUpIntent it's nippy
-NestWarmUpIntent my nipples are like diamonds
-NestWarmUpIntent my nipples are as hard as diamonds
+ThermostatWarmUpIntent turn the temperature up
+ThermostatWarmUpIntent temperature up
+ThermostatWarmUpIntent I am too cold
+ThermostatWarmUpIntent I'm too cold
+ThermostatWarmUpIntent it is too cool
+ThermostatWarmUpIntent it is too cold
+ThermostatWarmUpIntent it is freezing
+ThermostatWarmUpIntent it's freezing
+ThermostatWarmUpIntent it is chilly
+ThermostatWarmUpIntent its chilly
+ThermostatWarmUpIntent it is like ice
+ThermostatWarmUpIntent its like ice
+ThermostatWarmUpIntent warm up the house
+ThermostatWarmUpIntent it is nippy
+ThermostatWarmUpIntent it's nippy
+ThermostatWarmUpIntent my nipples are like diamonds
+ThermostatWarmUpIntent my nipples are as hard as diamonds
 
-NestHelpIntent help
-NestHelpIntent help me
-NestHelpIntent what can I ask you
-NestHelpIntent get help
-NestHelpIntent to help
-NestHelpIntent to help me
-NestHelpIntent what commands can I ask
-NestHelpIntent what commands can I say
-NestHelpIntent what can I do
-NestHelpIntent what can I use this for
-NestHelpIntent what questions can I ask
-NestHelpIntent what can you do
-NestHelpIntent what do you do
-NestHelpIntent how do I use you
-NestHelpIntent how can I use you
-NestHelpIntent what can you tell me
+ThermostatHelpIntent help
+ThermostatHelpIntent help me
+ThermostatHelpIntent what can I ask you
+ThermostatHelpIntent get help
+ThermostatHelpIntent to help
+ThermostatHelpIntent to help me
+ThermostatHelpIntent what commands can I ask
+ThermostatHelpIntent what commands can I say
+ThermostatHelpIntent what can I do
+ThermostatHelpIntent what can I use this for
+ThermostatHelpIntent what questions can I ask
+ThermostatHelpIntent what can you do
+ThermostatHelpIntent what do you do
+ThermostatHelpIntent how do I use you
+ThermostatHelpIntent how can I use you
+ThermostatHelpIntent what can you tell me

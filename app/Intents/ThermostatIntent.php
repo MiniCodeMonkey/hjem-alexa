@@ -6,7 +6,7 @@ use Alexa\Request\Request;
 
 use RuntimeException;
 
-abstract class NestIntent extends Intent {
+abstract class ThermostatIntent extends Intent {
 
 	protected function validateTemperature($targetTemperature) {
 		if (!is_numeric($targetTemperature)) {
@@ -34,7 +34,7 @@ abstract class NestIntent extends Intent {
 		$hjemClient = app()->make('HjemClient');
 		$response = $hjemClient->post('set/target_temperature/' . $targetTemperature);
 		if ($response->getStatusCode() != 200) {
-			throw new \RuntimeException('Could not communicate with hjem and/or nest');
+			throw new \RuntimeException('Could not communicate with hjem and/or thermostat');
 		}
 	}
 }

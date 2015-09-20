@@ -4,22 +4,18 @@ namespace App\Intents;
 
 use Alexa\Request\Request;
 
-use RuntimeException;
-
-class NestSetTempIntent extends NestIntent {
+class ThermostatWarmUpIntent extends ThermostatIntent {
 
 	public function handle(Request $request) {
-		$targetTemperature = $request->slots['temp'];
+		$targetTemperature = $this->getTemperature(true) + 2;
 
 		try {
-			$this->validateTemperature($targetTemperature);
 			$this->setTemperature($targetTemperature);
 		} catch (RuntimeException $e) {
 			return $this->response->respond($e->getMessage());
 		}
 
 		return $this->response
-			->respond('Setting the target temperature to ' . $targetTemperature . ' degrees');
+			->respond('Ice ice baby to cold, to cold. I\'m increasing the target temperature to ' . $targetTemperature . ' degrees');
 	}
-	
 }

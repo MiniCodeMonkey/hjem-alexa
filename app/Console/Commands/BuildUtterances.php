@@ -7,7 +7,7 @@ use RuntimeException;
 
 class BuildUtterances extends Command
 {
-    const EXPAND_PATTERN = '/\[(number|optional):([A-Za-z0-9-]+)\]/';
+    const EXPAND_PATTERN = '/\[(number|optional|multiple):([A-Za-z0-9-\|]+)\]/';
 
     /**
      * The name and signature of the console command.
@@ -82,6 +82,8 @@ class BuildUtterances extends Command
                 $this->expandWithNumber($lines, $match[0], $min, $max);
             } elseif ($match[1] === 'optional') {
                 $this->expandWithOptional($lines, $match[0], $match[2]);
+            } elseif ($match[1] === 'multiple') {
+                $this->expandWithMultiples($lines, $match[0], explode('|', $match[2]));
             }
         }
 
@@ -112,6 +114,24 @@ class BuildUtterances extends Command
                 $originalLine = $line;
                 $line = trim(str_replace($replacementToken, '', $originalLine));
                 $lines[] = str_replace($replacementToken, $optionalWord, $originalLine);
+            }
+        }
+    }
+
+    private function expandWithMultiples(&$lines, $replacementToken, $replacementWords) {
+        foreach ($lines as &$line) {
+            if (strpos($line, $replacementToken) !== FALSE) {
+                $originalLine = $line;
+
+                foreach ($replacementWords as $replacementWord) {
+                    $replacement = str_replace($replacementToken, $replacementWord, $originalLine);
+                    
+                    if ($line === $originalLine) {
+                        $line = $replacement;
+                    } else {
+                        $lines[] = $replacement;
+                    }
+                }
             }
         }
     }
