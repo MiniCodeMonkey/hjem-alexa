@@ -7,7 +7,6 @@ use Alexa\Request\Request;
 abstract class HelpIntent extends Intent {
 
 	protected $examples = [];
-	protected $invocationName = 'please set invocation name';
 
 	public function handle(Request $request) {
 		$examples = $this->getExamples();
@@ -21,10 +20,6 @@ abstract class HelpIntent extends Intent {
 	}
 
 	private function getExamples() {
-		$invocationName = $this->invocationName;
-
-		return array_map(function ($val) use ($invocationName) {
-			return str_replace('{invocation}', $invocationName, $val);
-		}, $this->examples);
+		return $this->examples;
 	}
 }
