@@ -340,48 +340,6 @@ ThermostatSetTempIntent set {Seventy Seven|temp}  degrees
 ThermostatSetTempIntent set {Seventy Eight|temp}  degrees
 ThermostatSetTempIntent set {Seventy Nine|temp}  degrees
 ThermostatSetTempIntent set {Eigthy|temp}  degrees
-ThermostatSetTempIntent set thermostat to {Sixty|temp}
-ThermostatSetTempIntent set thermostat to {Sixty One|temp}
-ThermostatSetTempIntent set thermostat to {Sixty Two|temp}
-ThermostatSetTempIntent set thermostat to {Sixty Three|temp}
-ThermostatSetTempIntent set thermostat to {Sixty Four|temp}
-ThermostatSetTempIntent set thermostat to {Sixty Five|temp}
-ThermostatSetTempIntent set thermostat to {Sixty Six|temp}
-ThermostatSetTempIntent set thermostat to {Sixty Seven|temp}
-ThermostatSetTempIntent set thermostat to {Sixty Eight|temp}
-ThermostatSetTempIntent set thermostat to {Sixty Nine|temp}
-ThermostatSetTempIntent set thermostat to {Seventy|temp}
-ThermostatSetTempIntent set thermostat to {Seventy One|temp}
-ThermostatSetTempIntent set thermostat to {Seventy Two|temp}
-ThermostatSetTempIntent set thermostat to {Seventy Three|temp}
-ThermostatSetTempIntent set thermostat to {Seventy Four|temp}
-ThermostatSetTempIntent set thermostat to {Seventy Five|temp}
-ThermostatSetTempIntent set thermostat to {Seventy Six|temp}
-ThermostatSetTempIntent set thermostat to {Seventy Seven|temp}
-ThermostatSetTempIntent set thermostat to {Seventy Eight|temp}
-ThermostatSetTempIntent set thermostat to {Seventy Nine|temp}
-ThermostatSetTempIntent set thermostat to {Eigthy|temp}
-ThermostatSetTempIntent set thermostat to {Sixty|temp} degrees
-ThermostatSetTempIntent set thermostat to {Sixty One|temp} degrees
-ThermostatSetTempIntent set thermostat to {Sixty Two|temp} degrees
-ThermostatSetTempIntent set thermostat to {Sixty Three|temp} degrees
-ThermostatSetTempIntent set thermostat to {Sixty Four|temp} degrees
-ThermostatSetTempIntent set thermostat to {Sixty Five|temp} degrees
-ThermostatSetTempIntent set thermostat to {Sixty Six|temp} degrees
-ThermostatSetTempIntent set thermostat to {Sixty Seven|temp} degrees
-ThermostatSetTempIntent set thermostat to {Sixty Eight|temp} degrees
-ThermostatSetTempIntent set thermostat to {Sixty Nine|temp} degrees
-ThermostatSetTempIntent set thermostat to {Seventy|temp} degrees
-ThermostatSetTempIntent set thermostat to {Seventy One|temp} degrees
-ThermostatSetTempIntent set thermostat to {Seventy Two|temp} degrees
-ThermostatSetTempIntent set thermostat to {Seventy Three|temp} degrees
-ThermostatSetTempIntent set thermostat to {Seventy Four|temp} degrees
-ThermostatSetTempIntent set thermostat to {Seventy Five|temp} degrees
-ThermostatSetTempIntent set thermostat to {Seventy Six|temp} degrees
-ThermostatSetTempIntent set thermostat to {Seventy Seven|temp} degrees
-ThermostatSetTempIntent set thermostat to {Seventy Eight|temp} degrees
-ThermostatSetTempIntent set thermostat to {Seventy Nine|temp} degrees
-ThermostatSetTempIntent set thermostat to {Eigthy|temp} degrees
 ThermostatSetTempIntent nest to {Sixty|temp}
 ThermostatSetTempIntent thermostat to {Sixty|temp}
 ThermostatSetTempIntent nest to {Sixty One|temp}
@@ -592,7 +550,6 @@ ThermostatSetTempIntent temperature to {Seventy Seven|temp} degrees
 ThermostatSetTempIntent temperature to {Seventy Eight|temp} degrees
 ThermostatSetTempIntent temperature to {Seventy Nine|temp} degrees
 ThermostatSetTempIntent temperature to {Eigthy|temp} degrees
-
 ThermostatCoolDownIntent turn the temperature down
 ThermostatCoolDownIntent temperature down
 ThermostatCoolDownIntent I'm too warm
@@ -616,7 +573,6 @@ ThermostatCoolDownIntent its hot as hell's fiery pits
 ThermostatCoolDownIntent it is as hot as the fiery pits of hell
 ThermostatCoolDownIntent it is hot as hell
 ThermostatCoolDownIntent burned
-
 ThermostatWarmUpIntent turn the temperature up
 ThermostatWarmUpIntent temperature up
 ThermostatWarmUpIntent I am too cold
@@ -634,7 +590,6 @@ ThermostatWarmUpIntent it is nippy
 ThermostatWarmUpIntent it's nippy
 ThermostatWarmUpIntent my nipples are like diamonds
 ThermostatWarmUpIntent my nipples are as hard as diamonds
-
 ThermostatHelpIntent help
 ThermostatHelpIntent help me
 ThermostatHelpIntent what can I ask you

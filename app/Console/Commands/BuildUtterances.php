@@ -65,6 +65,8 @@ class BuildUtterances extends Command
             }
         }
 
+        $output = array_unique($output);
+
         file_put_contents($outputFilename, implode(PHP_EOL, $output));
     }
 
@@ -122,15 +124,12 @@ class BuildUtterances extends Command
         foreach ($lines as &$line) {
             if (strpos($line, $replacementToken) !== FALSE) {
                 $originalLine = $line;
+                $line = '';
 
                 foreach ($replacementWords as $replacementWord) {
                     $replacement = str_replace($replacementToken, $replacementWord, $originalLine);
                     
-                    if ($line === $originalLine) {
-                        $line = $replacement;
-                    } else {
-                        $lines[] = $replacement;
-                    }
+                    $lines[] = $replacement;
                 }
             }
         }
