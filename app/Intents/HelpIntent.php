@@ -19,11 +19,11 @@ abstract class HelpIntent extends Intent {
 
 	private function generateExamplesSentence() {
 		$examples = $this->getExamples();
-		
+
 		// Pick two random examples
 		$selectedExampleIndexes = array_rand($examples, 2);
 
-		return 'You can say things like: ' . $examples[$selectedExampleIndexes[0]] . ' or ' . $examples[$selectedExampleIndexes[1]];
+		return 'You can say things like: ' . $examples[$selectedExampleIndexes[0]] . ' or you can say ' . $examples[$selectedExampleIndexes[1]];
 	}
 
 	private function getExamples() {
