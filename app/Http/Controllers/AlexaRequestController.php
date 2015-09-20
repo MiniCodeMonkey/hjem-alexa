@@ -29,7 +29,9 @@ class AlexaRequestController extends Controller
             try {
                 $appName = $this->getAppNameFromId($alexaRequest->applicationId);
                 $intent = $this->getIntent($appName . 'HelpIntent');
+                $alexaResponse = $intent->handle($alexaRequest);
             } catch (RuntimeException $e) {
+                // Default response
                 $alexaResponse = new AlexaResponse;
                 $alexaResponse->respond('How can I help you?')
                     ->reprompt('What do you want to do?');
