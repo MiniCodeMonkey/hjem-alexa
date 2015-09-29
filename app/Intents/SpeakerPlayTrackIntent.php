@@ -18,7 +18,8 @@ class SpeakerPlayTrackIntent extends SpeakerIntent {
 		}
 
 		return $this->response
-			->respond($playResponse);
+			->respond($playResponse)
+			->endSession();
 	}
 	
 }

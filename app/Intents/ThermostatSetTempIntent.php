@@ -19,7 +19,8 @@ class ThermostatSetTempIntent extends ThermostatIntent {
 		}
 
 		return $this->response
-			->respond('Setting the target temperature to ' . $targetTemperature . ' degrees');
+			->respond('Setting the target temperature to ' . $targetTemperature . ' degrees')
+			->endSession();
 	}
 	
 }

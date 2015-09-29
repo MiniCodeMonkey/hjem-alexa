@@ -16,7 +16,8 @@ class SpeakerStopIntent extends SpeakerIntent {
 		}
 
 		return $this->response
-			->respond('Got it!');
+			->respond('Got it!')
+			->endSession();
 	}
 	
 }

@@ -16,7 +16,8 @@ class ThermostatCoolDownIntent extends ThermostatIntent {
 		}
 
 		return $this->response
-			->respond('Cool! I decreased the target temperature to ' . $targetTemperature . ' degrees');
+			->respond('Cool! I decreased the target temperature to ' . $targetTemperature . ' degrees')
+			->endSession();
 	}
 
 }

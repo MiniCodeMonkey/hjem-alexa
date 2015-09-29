@@ -16,6 +16,7 @@ class ThermostatWarmUpIntent extends ThermostatIntent {
 		}
 
 		return $this->response
-			->respond('Ice ice baby to cold, to cold. I\'m increasing the target temperature to ' . $targetTemperature . ' degrees');
+			->respond('Ice ice baby to cold, to cold. I\'m increasing the target temperature to ' . $targetTemperature . ' degrees')
+			->endSession();
 	}
 }
